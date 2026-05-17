@@ -63,9 +63,16 @@ export default function LandingPage({ onGetStarted }) {
         <p style={{ color: COLORS.textMuted, fontSize: 16, lineHeight: 1.6, maxWidth: 320, margin: '0 auto 36px' }}>
           Smart emergency protection powered by real-time AI safety monitoring. Always watching. Never intrusive.
         </p>
-        <button className="btn-red" style={{ maxWidth: 280, margin: '0 auto 12px' }} onClick={onGetStarted}>
-          Start Free — No Card Required
-        </button>
+        <a
+  href=https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00
+  target=
+  rel="noopener noreferrer"
+  className="btn-red"
+  style={{ maxWidth: 280, margin: '0 auto 12px', display: 'block', textAlign: 'center', padding: '14px 20px', textDecoration: 'none' }}
+>
+  Start Free — No Card Required
+</a>
+      
         <p style={{ color: COLORS.textDim, fontSize: 13 }}>Available on iOS & Android</p>
 
         {/* Store buttons */}
