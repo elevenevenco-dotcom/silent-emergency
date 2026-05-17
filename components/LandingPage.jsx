@@ -97,18 +97,19 @@ export default function LandingPage({ onGetStarted }) {
 >
   Start Free — No Card Required
 </a>
-  Start Free — No Card Required
+ 
 
       
         <p style={{ color: COLORS.textDim, fontSize: 13 }}>Available on iOS & Android</p>
 
         {/* Store buttons */}
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', marginTop: 20 }}>
-         {['App Store', 'Google Play'].map(s => (
+        {['App Store', 'Google Play'].map(s => (
   <div
     key={s}
     className="card"
     style={{
+      
       padding: '10px 18px',
       display: 'flex',
       alignItems: 'center',
