@@ -95,13 +95,14 @@ export default function LandingPage({ onGetStarted }) {
         {/* Store buttons */}
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', marginTop: 20 }}>
           {['App Store', 'Google Play'].map(s => (
-            <div key={s} className="card" style={{ padding: '10px 18px', display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', borderRadius: 14, flex: 1, maxWidth: 150, justifyContent: 'center' }}>
+            <div key={s}> className="card" style={{ padding: '10px 18px', display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', borderRadius: 14, flex: 1, maxWidth: 150, justifyContent: 'center' }}>
               <Icon name={s === 'App Store' ? 'lock' : 'grid'} size={16} color={COLORS.textMuted} />
               <div style={{ textAlign: 'left' }}>
                 <div style={{ fontSize: 9, color: COLORS.textDim }}>Download on the</div>
                 <div style={{ fontSize: 12, fontWeight: 600, color: COLORS.text }}>$19</div>
               </div>
               </div>
+            ))}
               </a>
       
     
