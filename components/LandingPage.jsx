@@ -102,8 +102,9 @@ export default function LandingPage({ onGetStarted }) {
                 <div style={{ fontSize: 12, fontWeight: 600, color: COLORS.text }}>$19</div>
               </div>
               </div>
-            ))}
-              </a>
+              ))}
+              
+        </a>
       
     
 
