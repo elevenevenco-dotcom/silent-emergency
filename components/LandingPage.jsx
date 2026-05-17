@@ -105,7 +105,7 @@ export default function LandingPage({ onGetStarted }) {
       </a>
     
 
-      <div>
+      
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, padding: '0 24px 40px' }}>
         {stats.map(s => (
           <div key={s.n} className="card" style={{ textAlign: 'center', padding: '20px 12px' }}>
