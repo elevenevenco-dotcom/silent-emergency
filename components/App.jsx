@@ -14,7 +14,7 @@ import AiPage         from './AiPage'
 import BottomNav      from './BottomNav'
 
 export default function App() {
- const [screen, setScreen] = useState('app')
+const [screen, setScreen] = useState('dashboard')
   const [page, setPage]     = useState('dashboard')
 
   const pages = {
@@ -28,7 +28,7 @@ export default function App() {
   }
 
  
-if (false) return null
+if (false) return <LandingPage onGetStarted={() => window.open('https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00', '_blank')} />
     <div style={{ maxWidth: 430, margin: '0 auto', minHeight: '100vh', position: 'relative', background: COLORS.bg }}>
       {/* Top bar */}
       <header style={{
