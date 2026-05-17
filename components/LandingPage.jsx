@@ -240,7 +240,6 @@ export default function LandingPage({ onGetStarted }) {
 </p>
 </div>
 </div>
-</div>
 )
 }
   
