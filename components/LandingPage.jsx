@@ -52,7 +52,8 @@ export default function LandingPage({ onGetStarted }) {
   rel="noopener noreferrer"
   className="btn-red"
   style={{
-    maxWidth: 280,
+   maxWidth: 280,
+   
     margin: '0 auto 12px',
     display: 'block',
     textAlign: 'center',
