@@ -14,7 +14,7 @@ import AiPage         from './AiPage'
 import BottomNav      from './BottomNav'
 
 export default function App() {
-  const [screen, setScreen] = useState('landing') // landing | auth | app
+ const [screen, setScreen] = useState('app')
   const [page, setPage]     = useState('dashboard')
 
   const pages = {
