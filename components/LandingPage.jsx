@@ -207,18 +207,13 @@ export default function LandingPage({ onGetStarted }) {
           <div style={{ fontSize: 28, marginBottom: 12 }}></div>
           <h2 style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 22, color: COLORS.text, marginBottom: 8 }}>Start Protecting Yourself Today</h2>
           <p style={{ fontSize: 14, color: COLORS.textMuted, marginBottom: 24, lineHeight: 1.5 }}>Join 2.4 million people who trust Silent Emergency with their safety.</p>
-         <a
+        <a
   href="https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00"
   target="_blank"
   rel="noopener noreferrer"
   className="btn-red"
-</a>
-  href=https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn-red"
   style={{ textDecoration: 'none' }}
-
+>
   Create Free Account
 </a>
         </div>
