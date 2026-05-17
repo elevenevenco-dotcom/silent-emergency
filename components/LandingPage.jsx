@@ -45,7 +45,7 @@ export default function LandingPage({ onGetStarted }) {
           </div>
           <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 16, color: COLORS.text }}>Silent Emergency</span>
         </div>
- <a 
+<a 
   href="https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00"
   target="_blank"
   rel="noopener noreferrer"
@@ -105,7 +105,7 @@ export default function LandingPage({ onGetStarted }) {
       </a>
     
 
-      {/* Stats */}
+      <div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, padding: '0 24px 40px' }}>
         {stats.map(s => (
           <div key={s.n} className="card" style={{ textAlign: 'center', padding: '20px 12px' }}>
