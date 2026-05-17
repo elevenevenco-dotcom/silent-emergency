@@ -204,7 +204,7 @@ export default function LandingPage({ onGetStarted }) {
       {/* CTA */}
       <div style={{ padding: '0 24px 60px', textAlign: 'center' }}>
         <div className="card" style={{ background: 'linear-gradient(135deg, #120508 0%, #0F1117 100%)', border: '1px solid rgba(232,51,58,0.3)', borderRadius: 24 }}>
-          <div style={{ fontSize: 28, marginBottom: 12 }}>🛡️</div>
+          <div style={{ fontSize: 28, marginBottom: 12 }}></div>
           <h2 style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 22, color: COLORS.text, marginBottom: 8 }}>Start Protecting Yourself Today</h2>
           <p style={{ fontSize: 14, color: COLORS.textMuted, marginBottom: 24, lineHeight: 1.5 }}>Join 2.4 million people who trust Silent Emergency with their safety.</p>
           <button className="btn-red" onClick<a
