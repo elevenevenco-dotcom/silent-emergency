@@ -83,10 +83,19 @@ export default function LandingPage({ onGetStarted }) {
   href="https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00"
   target="_blank"
   rel="noopener noreferrer"
+ <a
   className="btn-red"
+  style={{
+    maxWidth: 280,
+    margin: '0 auto 12px',
+    display: 'block',
+    textAlign: 'center',
+    padding: '14px 20px',
+    textDecoration: 'none'
+  }}
 >
-  style={{ maxWidth: 280, margin: '0 auto 12px', display: 'block', textAlign: 'center', padding: '14px 20px', textDecoration: 'none' }}
->
+  Start Free — No Card Required
+</a>
   Start Free — No Card Required
 
       
