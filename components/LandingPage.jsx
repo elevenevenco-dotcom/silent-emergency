@@ -60,10 +60,10 @@ export default function LandingPage({ onGetStarted }) {
   }}
 >
   Start Free — No Card Required
-
+</a>
           
       
-      </nav>
+      
 
       {/* Hero */}
       <div style={{ padding: '60px 24px 40px', textAlign: 'center' }}>
