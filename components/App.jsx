@@ -28,8 +28,7 @@ export default function App() {
   }
 
  
-if (screen === 'landing') return <LandingPage onGetStarted={() => window.open(https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00, '_blank')} />
-  return (
+if (false) return null
     <div style={{ maxWidth: 430, margin: '0 auto', minHeight: '100vh', position: 'relative', background: COLORS.bg }}>
       {/* Top bar */}
       <header style={{
