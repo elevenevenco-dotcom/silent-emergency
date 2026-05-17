@@ -191,10 +191,9 @@ export default function LandingPage({ onGetStarted }) {
           
          
           </div>
-        ))}
+        
     
-       
-      <div style={{ padding: '0 24px 40px' }}>
+        <div style={{ padding: '0 24px 40px' }}>
         <h2 className="section-title" style={{ marginBottom: 20, textAlign: 'center' }}>Common Questions</h2>
         {faqs.map((f, i) => (
           <div key={i} className="card" style={{ marginBottom: 10, cursor: 'pointer' }} onClick={() => setFaqOpen(faqOpen === i ? null : i)}>
