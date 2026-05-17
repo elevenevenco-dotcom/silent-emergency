@@ -28,8 +28,9 @@ const [screen, setScreen] = useState('dashboard')
   }
 
  
-if (false) return <LandingPage onGetStarted={() => window.open('https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00', '_blank')} />
-    <div style={{ maxWidth: 430, margin: '0 auto', minHeight: '100vh', position: 'relative', background: COLORS.bg }}>
+return (
+  <div style={{ maxWidth: 430, margin: '0 auto', minHeight: '100vh', position: 'relative', background: COLORS.bg }}>
+   
       {/* Top bar */}
       <header style={{
         position:       'sticky',
