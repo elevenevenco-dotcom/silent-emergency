@@ -85,8 +85,6 @@ export default function LandingPage({ onGetStarted }) {
   href="https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00"
   target="_blank"
   rel="noopener noreferrer"
-  
-  style={{
   className="btn-red"
   style={{
     maxWidth: 280,
