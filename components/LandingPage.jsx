@@ -225,18 +225,23 @@ export default function LandingPage({ onGetStarted }) {
 >
   Create Free Account
 </a>
-        </div>
-      </div>
+</div>
+</div>
 
-      {/* Footer */}
+{/* Footer */}
       <div style={{ borderTop: `1px solid ${COLORS.border}`, padding: '24px', textAlign: 'center' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 12 }}>
           <div style={{ width: 24, height: 24, background: COLORS.red, borderRadius: 7, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Icon name="shield" size={14} color="white" />
           </div>
-          <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>Silent Emergency</span>
-</div>
+<span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>
+  Silent Emergency</span>
+</span>
         
+</div>
+
+</div>
+            
 <p style={{ fontSize: 12, color: COLORS.textDim }}>
   © 2025 Silent Emergency Inc. · Privacy Policy · Terms of Use
 </p>
