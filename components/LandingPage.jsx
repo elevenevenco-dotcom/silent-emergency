@@ -181,8 +181,8 @@ export default function LandingPage({ onGetStarted }) {
          
           </div>
         ))}
-      </div>
-
+    
+      ))}
       {/* FAQ */}
       <div style={{ padding: '0 24px 40px' }}>
         <h2 className="section-title" style={{ marginBottom: 20, textAlign: 'center' }}>Common Questions</h2>
