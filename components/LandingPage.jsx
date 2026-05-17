@@ -236,7 +236,7 @@ export default function LandingPage({ onGetStarted }) {
           </div>
           <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>Silent Emergency</span>
         </div><p style={{ fontSize: 12, color: COLORS.textDim }}>© 2025 Silent Emergency Inc. · Privacy Policy · Terms of Use</p>
-</div>
+
 </div>
 </div>
 )
