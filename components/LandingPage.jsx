@@ -246,7 +246,7 @@ export default function LandingPage({ onGetStarted }) {
   © 2025 Silent Emergency Inc. · Privacy Policy · Terms of Use
 
 </p>
-</div>
+
 
 )
 }
