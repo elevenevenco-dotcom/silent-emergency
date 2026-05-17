@@ -182,7 +182,7 @@ export default function LandingPage({ onGetStarted }) {
   rel="noopener noreferrer"
   className="btn-red"
   style={{ textDecoration: 'none' }}
->
+
   Create Free Account
 </a>
         </div>
