@@ -101,9 +101,9 @@ export default function LandingPage({ onGetStarted }) {
                 <div style={{ fontSize: 12, fontWeight: 600, color: COLORS.text }}>{s}</div>
               </div>
             </div>
-          ))}
-        </div>
-      </div>
+          
+      </a>
+    
 
       {/* Stats */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, padding: '0 24px 40px' }}>
