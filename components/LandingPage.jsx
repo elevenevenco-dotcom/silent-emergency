@@ -239,6 +239,6 @@ export default function LandingPage({ onGetStarted }) {
   </div>
 </div>
 </div>
-)
+);
 }
   
