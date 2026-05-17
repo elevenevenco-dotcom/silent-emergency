@@ -62,7 +62,7 @@ export default function LandingPage({ onGetStarted }) {
   Start Free — No Card Required
 </a>
           Get Started
-        </button>
+       </a>
       </nav>
 
       {/* Hero */}
