@@ -101,9 +101,9 @@ export default function LandingPage({ onGetStarted }) {
                 <div style={{ fontSize: 9, color: COLORS.textDim }}>Download on the</div>
                 <div style={{ fontSize: 12, fontWeight: 600, color: COLORS.text }}>{s}</div>
               </div>
-            </div>
-          
-      </a>
+              </div>
+              </a>
+      
     
 
       
