@@ -87,7 +87,7 @@ export default function LandingPage({ onGetStarted }) {
   style={{ maxWidth: 280, margin: '0 auto 12px', display: 'block', textAlign: 'center', padding: '14px 20px', textDecoration: 'none' }}
 >
   Start Free — No Card Required
-
+</a>
       
         <p style={{ color: COLORS.textDim, fontSize: 13 }}>Available on iOS & Android</p>
 
@@ -104,7 +104,7 @@ export default function LandingPage({ onGetStarted }) {
           ))}
         </div>
       </div>
-</a>
+<a
       {/* Stats */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, padding: '0 24px 40px' }}>
         {stats.map(s => (
