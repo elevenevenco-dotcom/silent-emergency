@@ -99,7 +99,7 @@ export default function LandingPage({ onGetStarted }) {
               <Icon name={s === 'App Store' ? 'lock' : 'grid'} size={16} color={COLORS.textMuted} />
               <div style={{ textAlign: 'left' }}>
                 <div style={{ fontSize: 9, color: COLORS.textDim }}>Download on the</div>
-                <div style={{ fontSize: 12, fontWeight: 600, color: COLORS.text }}>{s}</div>
+                <div style={{ fontSize: 12, fontWeight: 600, color: COLORS.text }}>$19</div>
               </div>
               </div>
               </a>
