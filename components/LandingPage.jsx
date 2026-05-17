@@ -45,7 +45,7 @@ export default function LandingPage({ onGetStarted }) {
           </div>
           <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 16, color: COLORS.text }}>Silent Emergency</span>
         </div>
-</a>
+<a
   href="https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00"
   target="_blank"
   rel="noopener noreferrer"
@@ -78,7 +78,7 @@ export default function LandingPage({ onGetStarted }) {
         <p style={{ color: COLORS.textMuted, fontSize: 16, lineHeight: 1.6, maxWidth: 320, margin: '0 auto 36px' }}>
           Smart emergency protection powered by real-time AI safety monitoring. Always watching. Never intrusive.
         </p>
-</a>
+<a
   href="https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00"
   target="_blank"
   rel="noopener noreferrer"
