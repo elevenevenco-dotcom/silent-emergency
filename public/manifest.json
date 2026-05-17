@@ -1,0 +1,24 @@
+{
+  "name": "Silent Emergency",
+  "short_name": "SilentSOS",
+  "description": "Your Silent Guardian When You Need It Most",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080A0E",
+  "theme_color": "#080A0E",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
