@@ -145,8 +145,8 @@ export default function LandingPage({ onGetStarted }) {
               <div>
                 <div style={{ fontSize: 13, fontWeight: 600, color: COLORS.text }}>{t.name}</div>
                 <div style={{ fontSize: 11, color: COLORS.textDim }}>{t.city}</div>
-              </div>
-            </div>
+            </a>
+         
           </div>
         ))}
       </div>
