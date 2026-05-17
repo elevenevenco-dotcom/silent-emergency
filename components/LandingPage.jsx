@@ -104,7 +104,7 @@ export default function LandingPage({ onGetStarted }) {
           ))}
         </div>
       </div>
-<a
+
       {/* Stats */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, padding: '0 24px 40px' }}>
         {stats.map(s => (
