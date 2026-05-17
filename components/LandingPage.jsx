@@ -45,7 +45,22 @@ export default function LandingPage({ onGetStarted }) {
           </div>
           <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 16, color: COLORS.text }}>Silent Emergency</span>
         </div>
-        <button className="btn-red" style={{ width: 'auto', padding: '10px 20px', fontSize: 13 }} onClick={onGetStarted}>
+        <button<a
+  href=https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-red"
+  style={{
+    maxWidth: 280,
+    margin: '0 auto 12px',
+    display: 'block',
+    textAlign: 'center',
+    padding: '14px 20px',
+    textDecoration: 'none'
+  }}
+>
+  Start Free — No Card Required
+</a>
           Get Started
         </button>
       </nav>
