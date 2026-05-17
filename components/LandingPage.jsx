@@ -236,7 +236,7 @@ export default function LandingPage({ onGetStarted }) {
           </div>
 <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>
   Silent Emergency</span>
-</span>
+
         
 </div>
 
