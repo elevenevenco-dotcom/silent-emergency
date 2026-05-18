@@ -217,36 +217,31 @@ export default function LandingPage({ onGetStarted }) {
           <h2 style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 22, color: COLORS.text, marginBottom: 8 }}>Start Protecting Yourself Today</h2>
           <p style={{ fontSize: 14, color: COLORS.textMuted, marginBottom: 24, lineHeight: 1.5 }}>Join 2.4 million people who trust Silent Emergency with their safety.</p>
         <a
-  href="https://buy.stripe.com/00w3cn8m13Up6bAdQ54Ja00"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn-red"
-  style={{ textDecoration: 'none' }}
+href="https://buy.stripe.com/0w3cn8m31Up6bAdQ54jq80"
+target="_blank"
+rel="noopener noreferrer"
+className="btn-red"
+style={{ textDecoration: 'none' }}
 >
-  Create Free Account
+Create Free Account
 </a>
 </div>
 </div>
 
 {/* Footer */}
-      <div style={{ borderTop: `1px solid ${COLORS.border}`, padding: '24px', textAlign: 'center' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 12 }}>
-          <div style={{ width: 24, height: 24, background: COLORS.red, borderRadius: 7, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Icon name="shield" size={14} color="white" />
-          </div>
-<span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>
-  Silent Emergency</span>
-
-        
-</div>
+<div style={{ borderTop: `1px solid #{COLORS.border}`, padding: '24px', textAlign: 'center' }}>
+  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 12 }}>
+    <div style={{ width: 24, height: 24, background: COLORS.red, borderRadius: 7, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <Icon name="shield" size={14} color="white" />
+    </div>
+    <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>
+      Silent Emergency</span>
+    </span>
+  </div>
 
 
             
+
 <p style={{ fontSize: 12, color: COLORS.textDim }}>
-  © 2025 Silent Emergency Inc. · Privacy Policy · Terms of Use
-
+  2025 Silent Emergency Inc. Privacy Policy. Terms of Use
 </p>
-
-
-)
-}
