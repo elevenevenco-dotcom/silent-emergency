@@ -243,3 +243,6 @@ Create Free Account
 <p style={{ fontSize: 12, color: COLORS.textDim }}>            
   2025 Silent Emergency Inc. Privacy Policy. Terms of Use
 </p>
+);
+}
+export default LandingPage;            
