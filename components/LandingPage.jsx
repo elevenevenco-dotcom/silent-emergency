@@ -234,15 +234,13 @@ Create Free Account
     <div style={{ width: 24, height: 24, background: COLORS.red, borderRadius: 7, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <Icon name="shield" size={14} color="white" />
     </div>
-    <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>
-      Silent Emergency
-    </span>
+    <span style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 14, color: COLORS.text }}>Silent Emergency</span>
   </div>
 </div>
 
-<p style={{ fontSize: 12, color: COLORS.textDim }}>            
+<p style={{ fontSize: 12, color: COLORS.textDim }}>
   2025 Silent Emergency Inc. Privacy Policy. Terms of Use
 </p>
 );
 }
-export default LandingPage;            
+export default LandingPage;
