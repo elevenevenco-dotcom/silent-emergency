@@ -103,7 +103,7 @@ export default function LandingPage({ onGetStarted }) {
           <h2 style={{ fontFamily: 'Syne', fontWeight: 700, fontSize: 22, color: COLORS.text, marginBottom: 8 }}>Start Protecting Yourself Today</h2>
           <p style={{ fontSize: 14, color: COLORS.textMuted, marginBottom: 24, lineHeight: 1.5 }}>Join 2.4 million people who trust Silent Emergency with their safety.</p>
           <a
-            href="https://buy.stripe.com/0w3cn8m31Up6bAdQ54jq80"
+            href="https://buy.stripe.com/4gMaEP59P62x6bA6nD4Ja01
             target="_blank"
             rel="noopener noreferrer"
             className="btn-red"
