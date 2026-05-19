@@ -1,7 +1,8 @@
 'use client'
 import { useState } from 'react'
 import { COLORS } from './constants'
-import Icon from './Icon'
+
+import Icon from './Icon' 
 
 export default function LandingPage({ onGetStarted }) {
   const [faqOpen, setFaqOpen] = useState(null)
